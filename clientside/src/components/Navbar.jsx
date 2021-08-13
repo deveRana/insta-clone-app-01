@@ -40,6 +40,7 @@ const Navbar = () => {
 
     const json = await res.json();
     setSearchResults(json.users)
+    setSearchValue("")
   }
 
 
@@ -76,10 +77,10 @@ const Navbar = () => {
                   return (
                     <>                   
                       <div className="resultProfile" key={curProfile._id}  >
-                       <a href={ "/profile/"+curProfile._id }  >
+                       <NavLink to={ "/profile/"+curProfile._id }  >
                         <h2>{curProfile.Fullname}</h2>
                         <h3>{curProfile.Username}</h3>
-                       </a>
+                       </NavLink>
                       </div>
                     </>
                   )
@@ -122,31 +123,7 @@ const Navbar = () => {
             </li>
           </ul>
 
-          {/* <ul className="navbar-nav">
-            <li className="nav-item">
-              <NavLink className="nav-link active" to="/" >    <AiOutlineHome />  </NavLink>
-            </li>
-          </ul>
-          <ul className="navbar-nav">
-            <li className="nav-item">
-              <NavLink className="nav-link " to="/profile" >   <CgProfile />  </NavLink>
-            </li>
-          </ul>
-          <ul className="navbar-nav">
-            <li className="nav-item">
-              <NavLink className="nav-link " to="/addpost" >   <CgAddR />  </NavLink>
-            </li>
-          </ul>
-          <ul className="navbar-nav">
-            <li className="nav-item">
-              <NavLink className="nav-link" to="/explore">   <MdExplore />  </NavLink>
-            </li>
-          </ul>
-          <ul className="navbar-nav">
-            <li className="nav-item">
-              <NavLink className="nav-link" to="/logout">   <FiLogOut />  </NavLink>
-            </li>
-          </ul> */}
+         
 
         </div>
 

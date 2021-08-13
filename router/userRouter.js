@@ -14,7 +14,7 @@ const User = require('../model/userSchema.js')
 const Post = require('../model/postSchema.js')
 
 
- 
+  
 
 userRouter.get('/user/:userId' , async (req ,res)=>{
 
