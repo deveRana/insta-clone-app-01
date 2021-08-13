@@ -40,7 +40,6 @@ const Navbar = () => {
 
     const json = await res.json();
     setSearchResults(json.users)
-
   }
 
 
@@ -77,7 +76,7 @@ const Navbar = () => {
                   return (
                     <>                   
                       <div className="resultProfile" key={curProfile._id}  >
-                       <NavLink to={ "/profile/"+curProfile._id } >
+                       <NavLink to={ "/profile/"+curProfile._id }  >
                         <h2>{curProfile.Fullname}</h2>
                         <h3>{curProfile.Username}</h3>
                        </NavLink>
