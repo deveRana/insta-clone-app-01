@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+} 
+
+.navbarDiv{
+    margin: 0;
+    padding: 5px 0;
+    width: 100%;
+    background-color: white;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.leftNavbarDiv{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.leftNavbarDiv h2{
+    font-family: 'Grand Hotel', cursive; 
+    font-size: 30px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.centerNavbarDiv{
+    width: 30%; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.centerNavbarDiv input{
+    width: 50% !important ;
+    /* height: 40px; */
+    border: 1px solid rgba(0, 0, 0, 0.19) !important;
+    background-color: whitesmoke !important;
+    font-family: 'Montserrat', sans-serif !important;
+    border-radius: 3px !important;
+    font-weight: 700;
+    outline: none !important ;
+    padding: 0.5% 1% !important;
+    font-size: 15px !important;
+    position: relative;
+    
+    
+}
+
+.searchResultsOn{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif !important;
+    width: 30%; 
+    height: 55vh;
+    background-color: white;
+    position: absolute;
+    top: 10%;
+    box-shadow: 1px 1px 5px  rgba(0, 0, 0, 0.5) , -1px -1px 5px  rgba(0, 0, 0, 0.5) ;
+    border: 5px;
+    overflow-y: auto;
+}
+
+.searchResultsOff{
+    display: none;
+}
+
+
+.resultProfile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 80%;
+    height: 5vh;
+    margin: 20px 0;
+    cursor: pointer;
+}
+
+.resultProfile a h2{
+    font-size: 25px;
+    font-weight: 800;
+    margin: 0;
+    color: black;
+}
+
+.resultProfile a h3{
+    font-size: 17px;
+    font-weight: 800;
+    margin-bottom:  0;
+    margin-top: 2px;
+    color: rgba(0, 0, 0, 0.6) !important;
+}
+
+
+.resultProfile a{
+    text-decoration: none;
+
+}
+
+
+
+.rightNavbarDiv{
+    width: 30%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+
+ul{
+    list-style-type: none;
+    margin: 0 12px !important;
+    padding: 0 !important;
+  }
+
+
+ul li a{
+    color: black;
+    font-size: 25px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 15px;
+}
+
+

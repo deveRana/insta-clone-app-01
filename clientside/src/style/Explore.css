@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+}
+
+
+.homeContainer{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.innerContainer{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardContainer{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    border: 1px solid rgba(0, 0, 0,0.1);
+}
+
+.cardProfileDiv{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+
+
+
+.profileNameDiv{
+    width: 90%;
+    height: 7vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profileNameDiv h2 {
+    font-size: 21px;
+    font-weight: 700;
+    cursor: pointer;
+    margin-bottom: 0px;
+}
+
+.profileNameDiv h2 a{
+    text-decoration: none;
+    color: black;
+}
+
+.profileNameDiv span{
+    color: #EA2027;
+    font-size: 17px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+}
+
+.profilePicNameDiv{
+    width: 90%;
+    height: 3vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.profilePicNameDiv h2{
+    font-size: 14px;
+    font-weight: 900;
+    color: rgba(0,0,0,0.7) ;  
+}
+
+.cardImageDiv{
+    width: 100%;
+    height: 80vh;
+    background-color: white;
+}
+
+.cardImageDiv img{
+    width: inherit;
+    height: inherit;
+}
+
+.cardLikeDiv{
+    width: 100%;
+    height: 7vh; 
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: white;
+}
+
+.cardLikeDiv button{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.cardLikeDiv button svg{
+    font-size: 27px;
+    background-color: white;
+    margin-left: 20px;
+}
+
+.Not-a-redHeart{
+    color: black;
+}
+
+.redHeart{
+    color: red;
+}
+
+.cardLikeDiv  span{
+    margin-left: 15px;
+    font-weight: 900;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.cardLikeDiv  p{
+    margin-left: 5px;
+    font-weight: 900;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 0;
+}
+
+
+
+.cardBodyDiv{
+    background-color: white;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-top: 2px solid rgba(0, 0, 0, 0.09);
+}
+
+.cardBodyDiv p{
+    padding: 15px 0px ;
+    margin-left: 25px;
+    margin-bottom: 0px;
+    font-weight: 800;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+
+.cardAllCommentsDiv{
+    background-color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top: 2px solid rgba(0, 0, 0, 0.09);
+}
+
+.allComments{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.allComments h3{
+    margin: 10px 0;
+    font-size: 15px;
+    margin-left: 25px;
+    font-weight: 600;
+}
+
+.allComments p{
+    margin: 10px 0;
+    font-size: 13px;
+    margin-left: 10px;
+    font-weight: 900;
+    padding-bottom: 0;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.cardCommentDiv{
+    background-color: white;
+    width: 100%;
+    height: 8vh; 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-top: 2px solid rgba(0, 0, 0, 0.09);
+}
+
+.commentIconDiv{
+    width: 10%;
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.commentIconDiv svg{
+    font-size: 30px;
+}
+
+
+.commentInputDiv{
+    width: 80%;
+    height: 8vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.commentInputDiv input{
+    border: none;
+    outline: none;
+    font-size: 17px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+
+.postIconDiv{
+    width: 10%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.postIconDiv button{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 17px;
+    cursor: pointer;
+    color: rgba(27, 156, 252,0.7);
+    font-weight: 900;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.bg-color-Class{
+    color: rgba(27, 156, 252,1) !important;
+}

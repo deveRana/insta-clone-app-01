@@ -1,0 +1,211 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+}
+
+.loginContainer{
+    
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    margin-top: 80px;
+    margin-bottom:  80px;
+    width: 25%;
+    height: 80vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+}
+.upperDiv{
+    width: 100%;
+    height: 68vh;
+    border:1px solid rgba(0, 0, 0, 0.19);
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.heading{
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading h1{
+    font-family: 'Grand Hotel', cursive;       
+    font-size: 50px;                                          
+    /* letter-spacing: 2px; */
+    font-weight: 550;
+    color: rgba(36, 33, 33, 0.9);
+}
+
+
+.inputDiv{
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.inputDiv input{
+    width: 80% !important ;
+    height: 6vh !important;
+    border: 1px solid rgba(0, 0, 0, 0.19) !important;
+    background-color: whitesmoke !important;
+    font-family: 'Montserrat', sans-serif !important;
+    border-radius: 3px !important;
+    font-weight: 700;
+    outline: none !important ;
+    margin: 10px 0px !important;
+    padding: 0.5% 1% !important;
+    font-size: 15px !important;
+}
+
+.inputDiv input::placeholder{
+    color: rgba(0, 0, 0,0.5);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.inputDiv a {
+    margin: 10px 0px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 82% !important ;
+    height: 5vh !important;
+    background-color: rgba(27, 156, 252,0.5);
+}
+
+
+.inputDiv a button  {
+    width: 82% !important ;
+    height: 5vh !important;
+    border-radius: 3px;
+    color: white;
+    border: none !important;
+    outline: none;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+/* 
+.inputDiv button:disabled{
+
+}  */
+
+.bgClass{
+    background-color: rgb(27, 156, 252) !important;
+    
+}
+
+.orDiv{
+    width: 100%;
+    height: 3vh;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.orDiv span{
+    /* margin: 0 15px; */
+    font-weight: 600;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+hr{
+   width: 30%;
+}
+
+.forgotPasswordDiv{
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.forgotPasswordDiv h6{
+    margin: 5px 0;
+    
+}
+
+.forgotPasswordDiv h6 a{
+    font-weight: 600;
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.forgotPasswordDiv h6 a span{
+    color: #1B9CFC;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.forgotPasswordDiv p{
+    margin: 5px 0;
+}
+
+.forgotPasswordDiv p a{
+    font-weight: 600;
+    font-size: 12px;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+
+.lowerDiv{
+    
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    width: 100%;
+    height: 10vh;
+    border:1px solid rgba(0, 0, 0, 0.19);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.lowerDiv p{
+    margin-right: 5px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.lowerDiv span a{
+    margin-left: 5px;
+    color: #1B9CFC !important;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: none !important;
+    
+}
