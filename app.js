@@ -21,7 +21,7 @@ app.use(require('./router/postRouter.js'))
 // Linking User Routes
 app.use(require('./router/userRouter.js'))
 
-const Port = process.env.PORT;
+const Port = process.env.PORT || 5000;
 
 
 if(process.env.NODE_ENV == "production"){
